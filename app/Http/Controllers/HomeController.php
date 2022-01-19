@@ -17,14 +17,7 @@ class HomeController extends Controller
  
     public function index()
     {
-        $user = Auth::user();
-
-        // if($user->user_role != 'admin')
-        // {
-        //     return view('404NotFound');
-        // }else{
-        //     return view('home');
-        // }
-        return view('home');
+      
+        return view('login');
     }
 }
