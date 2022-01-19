@@ -36,7 +36,14 @@
       </div><!-- menu-item -->
     </a><!-- sl-menu-link -->
 
-      
+    <a href="{{ route('userInformation') }}" class="sl-menu-link">
+        <div class="sl-menu-item">
+          <i class="fa fa-user" aria-hidden="true"></i>&nbsp;
+          <span class="menu-item-label">User</span>
+        </div><!-- menu-item -->
+    </a><!-- sl-menu-link -->
+
+
   </div><!-- sl-sideleft-menu -->
 
   <br>
