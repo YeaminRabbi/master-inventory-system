@@ -230,7 +230,7 @@
         <!--/.wrapper-->
         <div class="footer">
             <div class="container">
-                <b class="copyright">&copy; 2021 Rabbi </b>All rights reserved.
+                <b class="copyright">Copyright &copy; <?php $year = date("Y"); echo $year; ?>. Rabbi-IT. All Rights Reserved.
             </div>
         </div>
         <script src="{{ asset('userassets/scripts/jquery-1.9.1.min.js') }}" type="text/javascript"></script>

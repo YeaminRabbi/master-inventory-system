@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Admin Section</title>
-</head>
+@extends('admin.frontend.adminlayout')
 
-<body>
-    The content of the document is from Admin Panel
-</body>
+@section('pagename')
+    Dashboard
+@endsection
 
-</html>
+@section('content')
+    
+@endsection
